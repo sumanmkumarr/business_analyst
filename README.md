@@ -6,42 +6,42 @@ This project scrapes Reddit posts from stock-related subreddits, performs sentim
 ## Setup Instructions
 
 1. **Clone the repository**:
-   ```bash
-   git clone your-repo-url
-   cd your-repo-directory
+   
+   git clone https://github.com/sumanmkumarr/business_analyst.git
+   
 
 
 
-install dependencies
+2. install dependencies
 pip install -r requirements.txt
 
 
 
-Configure Reddit API keys:
+3. Configure Reddit API keys:
 
 
-Update config.py with your Reddit API credentials.
+4. Update config.py with your Reddit API credentials.
 
 
 
-Run data collection:
+5. Run data collection:
 python data_collection.py
 
 
 
-Run sentiment analysis:
+6. Run sentiment analysis:
 python sentiment_analysis.py
 
 
 
-Fetch stock data:
+7. Fetch stock data:
 python stock_data.py
 
 
-Visualize data:
+8. Visualize data:
 python visualization.py
 
 
 
-Generate report:
+9. Generate report:
 python report.py
